@@ -1,0 +1,75 @@
+/* .btn1 {
+  background-color: #03aeee;
+  color: white;
+  padding: 5px 30px;
+  border: none;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+  margin: 10px;
+} */
+#add {
+    display: flex;
+    flex-direction: column;
+    gap: 20px; 
+   
+
+}
+/* .btn2 {
+  background-color: #fff;
+  border: 1px solid #ccc;
+  padding: 5px 30px;
+  border-radius: 4px;
+  font-size: 14px;
+  cursor: pointer;
+} */
+
+.row2 {
+  /* padding-top: 10px; */
+ 
+  display: flex;
+  gap: 16px;
+}
+
+.mainbody {
+  background-color: white;
+  border-radius: 8px;
+  padding: 30px;
+  
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.05);
+}
+.row {
+  display: flex;
+  flex-direction: column;
+  /* flex-basis: calc(33.33% - 14px);
+  min-width: 0;
+  margin-bottom: 15px; */
+  
+  width: 31%;
+  margin: 10px
+  
+}
+.row input,select{
+    width: 90%;
+    /* margin: 20px; */
+}
+
+
+/* .button1 {
+  background-color: #03aeee;
+  width: 30 px;
+} */
+
+
+.row1 {
+  display: flex;
+  flex-direction: column;
+}
+
+.fullrows {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 3px;
+  
+  /* width: calc(100% - 300px); */
+}

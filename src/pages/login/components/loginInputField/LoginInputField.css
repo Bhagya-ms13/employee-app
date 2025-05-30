@@ -1,0 +1,28 @@
+.input-text {
+  padding: 15px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+  outline: none;
+  transition: border 0.2s ease;
+  width: 100%
+}
+
+.input-box {
+  position: relative;
+  width:370px
+}
+.input-text-label {
+  background-color: white;
+  position: absolute;
+  left: 1em;
+  top: 0.9em;
+  font-weight: bold;
+  transition-property: top;
+  transition-duration: 0.3s;
+  color: black;
+}
+.input-text:focus + .input-text-label{
+  top: -0.75em;
+  color: #0096e0;
+  font-weight: lighter;
+}

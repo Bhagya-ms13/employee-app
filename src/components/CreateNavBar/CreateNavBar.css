@@ -1,0 +1,33 @@
+.navbar {
+  position: fixed;
+  width: 300px;
+  padding-left: 20px;
+
+  background-color: white;
+  height: 100vh;
+}
+
+#image1 {
+  width: 250px;
+  margin-bottom: 20px;
+}
+.box {
+  display: flex;
+  background-color: #03aeee;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  color: white;
+  padding: 15px;
+  gap: 20px;
+  align-items: center;
+
+  text-decoration: none;
+}
+.image2 {
+  border-radius: 50%;
+  background-color: white;
+  width: 24px; 
+  height: 24px;
+  object-fit: contain; 
+  padding: 4px;
+}
