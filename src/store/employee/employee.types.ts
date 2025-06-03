@@ -76,13 +76,13 @@ export interface Employee {
 
   role: Role;
 
-  dateOfJoining: Date;
+  dateOfJoining: string;
 
   experience: number;
 
   status: Status;
 
-  departmentId: number | string;
+  departmentId: number ;
 
 }
 

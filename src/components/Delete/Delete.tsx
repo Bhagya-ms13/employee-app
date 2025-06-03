@@ -2,7 +2,7 @@ import Button from "../Button/Button";
 import "./Delete.css";
 
 
-function Delete({ onClose }: { onClose: () => void }) {
+function Delete({ onClose,onConfirm }: { onClose: () => void , onConfirm: () => void}) {
   return (
     <div className="modal">
       <div className="outer-container">
@@ -14,7 +14,7 @@ function Delete({ onClose }: { onClose: () => void }) {
           Do you really want to delete employee?
         </p>
         <div className="button-container">
-          <Button label="Confirm" onClick={onClose}   style={{
+          <Button label="Confirm" onClick={onConfirm}   style={{
     backgroundColor: "#007bff", 
     color: "white",
     border: "none",

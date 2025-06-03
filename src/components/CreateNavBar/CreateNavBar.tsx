@@ -5,14 +5,15 @@ import Button from '../Button/Button'
 
 function CreateNavBar () {
    const navigate=useNavigate()
-      const handleemp=(e:HTMLFormElement)=>{
+      const handleemp=(e:React.FormEvent)=>{
         e.preventDefault();
         localStorage.setItem("isLogged","false")
         navigate("/")
 
            
         }
-        const handleEmployeeList=()=>{
+        const handleEmployeeList=(e:any)=>{
+          e.preventDefault();
           navigate("/employees/list")
         }
          return (

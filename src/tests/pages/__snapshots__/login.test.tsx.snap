@@ -1,0 +1,93 @@
+// Vitest Snapshot v1, https://vitest.dev/guide/snapshot.html
+
+exports[`Login Page > should match snapshot 1`] = `
+<div>
+  <div
+    class="container"
+  >
+    <div
+      class="left-panel"
+    >
+      <div
+        class="circle"
+      >
+        <img
+          alt="Circle Image"
+          class="circle-image"
+          src="./src/assets/kv-login.jpeg"
+        />
+      </div>
+    </div>
+    <div
+      class="right-panel"
+    >
+      <div
+        class="login-box"
+      >
+        <img
+          alt="Keyvalue Logo"
+          class="logo"
+          src="./src/assets/kv-logo.png"
+        />
+        <form>
+          <div
+            class="input-box"
+          >
+            <input
+              aria-label="Username"
+              class="input-text"
+              style="margin-bottom: -15px;"
+              type="text"
+              value=""
+            />
+            <label
+              class="input-text-label"
+            >
+              Username
+            </label>
+            <div
+              class="emp-button"
+            >
+              <button
+                class="button button--secondary"
+                style="margin: 0px; width: 3px; transform: translate(340px, -30px); background-color: rgb(250, 250, 250);"
+                type="button"
+              >
+                ×
+                <img />
+              </button>
+            </div>
+          </div>
+          <div
+            class="input-box"
+          >
+            <input
+              aria-label="Password"
+              class="input-text"
+              type="password"
+              value=""
+            />
+            <label
+              class="input-text-label"
+            >
+              Password
+            </label>
+          </div>
+          <div
+            class="emp-button"
+          >
+            <button
+              class="button button--primary"
+              style="width: 370px;"
+              type="submit"
+            >
+              Log in
+              <img />
+            </button>
+          </div>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+`;
